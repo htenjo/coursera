@@ -131,18 +131,45 @@ body {
  right: 0;
  width: 100%;
  text-align: center;
- font-size: 1.6em;
+ font-size: 1.3em;
  text-transform: uppercase;
  background-color: #000;
  color: #fff;
  opacity: .8;
 }
 
+.panel-footer {
+    background-color: #222;
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border-top: 0;
+    font-size: 0.8em;
+}
 
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
 
+#hours, #address {
+    line-height: 2;
+}
 
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
 
+.panel-footer .copy {
+    text-align: center;
+}
 
+#testimonials {
+    font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
 
 @media (min-width: 1200px) {
     .container .jumbotron {
@@ -204,6 +231,10 @@ body {
     #menu-tile, #specials-tile {
         width: 400px;
         margin: 0 auto 15px;
+    }
+
+    .panel-footer section {
+        text-align: center;
     }
 }
 
