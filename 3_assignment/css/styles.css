@@ -1,0 +1,33 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #283c6d;
+}
+
+.navbar.navbar-default {
+    border: 5px solid #c0c0c0;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+
+#main-info {
+    margin: 30px;
+    text-align: justify;
+}
+
+.row {
+    background-color: #3d5696;
+    padding: 20px;
+}
+
+.row .text-center {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#text-title {
+    width: 100%;
+}
