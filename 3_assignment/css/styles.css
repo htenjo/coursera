@@ -18,16 +18,8 @@ body {
     text-align: justify;
 }
 
-.row {
+.menu-section {
     background-color: #3d5696;
+    margin: 20px;
     padding: 20px;
-}
-
-.row .text-center {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-}
-
-#text-title {
-    width: 100%;
 }
